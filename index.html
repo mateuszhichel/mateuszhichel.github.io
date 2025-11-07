@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateusz Hichel Photography</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <button class="hamburger" id="hamburger">☰</button>
+    <div class="brand">Mateusz Hichel</div>
+    <div class="side-nav" id="sideNav">
+      <button class="side-btn active" data-category="automotive">Automotive</button>
+      <button class="side-btn" data-category="products">Products</button>
+      <button class="side-btn" data-category="socialmedia">Social Media</button>
+      <button class="side-btn" data-category="personal">Personal</button>
+    </div>
+    <div class="small-foot">© 2025</div>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <div id="gallery" class="gallery"></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button id="lb-close" class="lb-close">✕</button>
+    <button id="lb-prev" class="lb-prev">‹</button>
+    <div class="lb-frame">
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+    <button id="lb-next" class="lb-next">›</button>
+    <div id="lb-counter" class="lb-counter">1 / 1</div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
