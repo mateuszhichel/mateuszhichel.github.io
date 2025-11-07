@@ -40,6 +40,12 @@ body {
   font-weight: 700;
   margin-bottom: 12px;
 }
+.subbrand {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 1px;
+}
 
 .hamburger {
   display: none;
